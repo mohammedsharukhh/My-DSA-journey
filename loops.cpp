@@ -15,21 +15,25 @@ int main () {
         cout << "A is negative" << endl;
     }
     /*/
-    /*
+    
     int a;
     int b;
     cout << " Enter the value of a: ";
     cin >> a;
-    cout << " Enter the value of b: ";
-    cin >> b;
-    if (a > b){
-        cout << "a is greater" << endl;
+  
+    if (a > 0){
+        cout << "a is poitive" << endl;
     }
     else {
-        cout << "b is greater" <<endl;
+        if (a < 0) {
+        cout << "a is negetive" <<endl;
+        }
+        else {
+            cout << " The value is equal to 0" << endl;
+        }
     }
-    return 0; */
+    return 0; 
 
-    
+
 
 }
