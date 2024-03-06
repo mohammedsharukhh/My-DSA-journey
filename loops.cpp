@@ -50,4 +50,18 @@ int main () {
         cout << "It is a Numeric"<<endl;
     }
 }
+
+
+while loop
 /**/
+int n;
+int i=1;
+cout << "Enter the value of N: ";
+cin>> n;
+while (i <= n){
+    cout << i << " ";
+    i = i +1;
+}
+}
+
+
