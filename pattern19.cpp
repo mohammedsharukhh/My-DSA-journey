@@ -6,14 +6,15 @@ int main() {
     cin >> n;
     while ( row <= n)
     {
-        int count = n - row + 1;
         int space = row -1;
         while (space)
         {
-            cout << space;
+            cout << " ";
             space = space - 1;
         }
-        while (col < = n - row + 1 )
+
+        int col = 1;
+        while (col <= n - row + 1 )
         {
             cout << "*";
             col = col + 1;
