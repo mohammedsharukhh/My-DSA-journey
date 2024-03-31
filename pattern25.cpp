@@ -24,16 +24,14 @@ int main() {
             cout << "*";
             space = space - 1;
         }
-        int cole = 1;
-        while (cole <= n - row)
+        int cole = n - row + 1;
+        while (cole >= 1)
         {
-           cout << col;
-           cole = cole + 1;
+           cout << cole;
+           cole = cole - 1;
         }
-           
         cout << endl;
         row = row + 1;
-        
     }
     
 }
