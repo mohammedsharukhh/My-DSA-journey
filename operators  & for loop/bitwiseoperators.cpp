@@ -12,4 +12,14 @@ int main() {
     cout << (17>>2) <<endl;
     cout << (19<<1) <<endl;
     cout << (21<<2) <<endl; //21:42
+
+    int i = 10;
+    cout << (++i) <<endl;
+    //11
+    cout << (i++)<<endl; 
+ //11
+    cout << (i--)<<endl;
+// 12
+    cout <<(--i)<<endl;
+// 10
 }
